@@ -1,0 +1,4 @@
+repository "MultiUserU6@WazardProject@cloud"
+  path "/"
+    br "/main"
+    co "/main"

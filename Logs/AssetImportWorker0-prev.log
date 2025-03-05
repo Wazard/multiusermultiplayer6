@@ -1,0 +1,781 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.37f1 (090b7797214c) revision 592759'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16248 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Luca-stage
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50639
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: E:/Luca-stage
+E:/Luca-stage
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15464]  Target information:
+
+Player connection [15464]  * "[IP] 10.8.14.57 [Port] 0 [Flags] 2 [Guid] 970216723 [EditorId] 970216723 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KSQ7QB7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15464] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15464] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 112.43 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 6.58 ms.
+Initialize engine version: 6000.0.37f1 (090b7797214c)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Luca-stage/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4007 MB
+    Driver:   32.0.15.7216
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.014588 seconds.
+- Loaded All Assemblies, in  1.115 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 624 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.270 seconds
+Domain Reload Profiling: 2385ms
+	BeginReloadAssembly (460ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (258ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (468ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (291ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (263ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (1271ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (810ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  8.725 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 86.02 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Editor.SpatialKeyboardSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Editor.SpatialKeyboardSampleProjectValidation..cctor () [0x00023] in E:\Luca-stage\Assets\Samples\XR Interaction Toolkit\3.0.7\Spatial Keyboard\Editor\Scripts\SpatialKeyboardSampleProjectValidation.cs:39 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <9e6ebc012b944bf1ac9a620fd8e232d1>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Configuration\ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Configuration\ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Contexts\WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\VirtualProjects\Editor\Contexts\EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <9e6ebc012b944bf1ac9a620fd8e232d1>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.307 seconds
+Domain Reload Profiling: 11029ms
+	BeginReloadAssembly (518ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (7970ms)
+		LoadAssemblies (7758ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (625ms)
+			TypeCache.Refresh (469ms)
+				TypeCache.ScanAssembly (430ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2308ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2033ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (305ms)
+			ProcessInitializeOnLoadAttributes (1030ms)
+			ProcessInitializeOnLoadMethodAttributes (662ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 92.11 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 48.23 ms.
+Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9295 unused Assets / (5.8 MB). Loaded Objects now: 9936.
+Memory consumption went from 185.3 MB to 179.4 MB.
+Total: 21.485300 ms (FindLiveObjects: 1.276200 ms CreateObjectMapping: 2.089700 ms MarkObjects: 12.471900 ms  DeleteObjects: 5.646400 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.198 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 66.57 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Editor.SpatialKeyboardSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Editor.SpatialKeyboardSampleProjectValidation..cctor () [0x00023] in E:\Luca-stage\Assets\Samples\XR Interaction Toolkit\3.0.7\Spatial Keyboard\Editor\Scripts\SpatialKeyboardSampleProjectValidation.cs:39 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <9e6ebc012b944bf1ac9a620fd8e232d1>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Configuration\ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Configuration\ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Contexts\WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\VirtualProjects\Editor\Contexts\EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <9e6ebc012b944bf1ac9a620fd8e232d1>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.229 seconds
+Domain Reload Profiling: 5429ms
+	BeginReloadAssembly (595ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (1392ms)
+		LoadAssemblies (1333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (458ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (417ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3230ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2000ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (240ms)
+			ProcessInitializeOnLoadAttributes (1036ms)
+			ProcessInitializeOnLoadMethodAttributes (682ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 187.90 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9293 unused Assets / (2.1 MB). Loaded Objects now: 9952.
+Memory consumption went from 271.8 MB to 269.7 MB.
+Total: 41.665500 ms (FindLiveObjects: 2.214900 ms CreateObjectMapping: 3.114900 ms MarkObjects: 24.535800 ms  DeleteObjects: 11.798000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 5510.428542 seconds.
+  path: Assets/Scenes/ConveyorBelt.unity
+  artifactKey: Guid(3bea1f491e196da4685821724131aac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ConveyorBelt.unity using Guid(3bea1f491e196da4685821724131aac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18f237e83da1196d6d72cd57530b59a6') in 0.0797191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.204 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 84.74 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Editor.SpatialKeyboardSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Editor.SpatialKeyboardSampleProjectValidation..cctor () [0x00023] in E:\Luca-stage\Assets\Samples\XR Interaction Toolkit\3.0.7\Spatial Keyboard\Editor\Scripts\SpatialKeyboardSampleProjectValidation.cs:39 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <9e6ebc012b944bf1ac9a620fd8e232d1>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Configuration\ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Configuration\ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Contexts\WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\VirtualProjects\Editor\Contexts\EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <9e6ebc012b944bf1ac9a620fd8e232d1>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.380 seconds
+Domain Reload Profiling: 5588ms
+	BeginReloadAssembly (615ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (1409ms)
+		LoadAssemblies (1389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (424ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (382ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (3381ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2957ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (433ms)
+			ProcessInitializeOnLoadAttributes (1843ms)
+			ProcessInitializeOnLoadMethodAttributes (638ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 119.82 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9293 unused Assets / (5.1 MB). Loaded Objects now: 9958.
+Memory consumption went from 270.7 MB to 265.5 MB.
+Total: 31.901700 ms (FindLiveObjects: 2.492600 ms CreateObjectMapping: 4.294900 ms MarkObjects: 16.318800 ms  DeleteObjects: 8.792900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 222.514749 seconds.
+  path: Assets/Scripts/ConveyorBelt.cs
+  artifactKey: Guid(533643ae4f8427a4aa7574fe4e3275a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ConveyorBelt.cs using Guid(533643ae4f8427a4aa7574fe4e3275a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '409dcf96749dd4be12c0953c95d450f4') in 0.0140037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.144 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 95.90 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Editor.SpatialKeyboardSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Editor.SpatialKeyboardSampleProjectValidation..cctor () [0x00023] in E:\Luca-stage\Assets\Samples\XR Interaction Toolkit\3.0.7\Spatial Keyboard\Editor\Scripts\SpatialKeyboardSampleProjectValidation.cs:39 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <9e6ebc012b944bf1ac9a620fd8e232d1>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Configuration\ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Configuration\ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Contexts\WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\VirtualProjects\Editor\Contexts\EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <9e6ebc012b944bf1ac9a620fd8e232d1>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.128 seconds
+Domain Reload Profiling: 4274ms
+	BeginReloadAssembly (705ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (138ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (1274ms)
+		LoadAssemblies (1301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (447ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (409ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2128ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1706ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (250ms)
+			ProcessInitializeOnLoadAttributes (848ms)
+			ProcessInitializeOnLoadMethodAttributes (575ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 174.32 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9293 unused Assets / (2.9 MB). Loaded Objects now: 9962.
+Memory consumption went from 202.4 MB to 199.6 MB.
+Total: 44.143100 ms (FindLiveObjects: 1.837900 ms CreateObjectMapping: 2.677400 ms MarkObjects: 17.256600 ms  DeleteObjects: 22.369900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 187.425411 seconds.
+  path: Assets/prefab/Conveyor.prefab
+  artifactKey: Guid(aaf2ee5b6f2c9ca4dafab3d65fc9640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Conveyor.prefab using Guid(aaf2ee5b6f2c9ca4dafab3d65fc9640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3944b91fcfe6b0c89ea46413e3c50b04') in 1.0275302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.388461 seconds.
+  path: Assets/prefab/Conveyor.prefab
+  artifactKey: Guid(aaf2ee5b6f2c9ca4dafab3d65fc9640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Conveyor.prefab using Guid(aaf2ee5b6f2c9ca4dafab3d65fc9640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4c05840ccae18a603e9dff4d9251ff1') in 0.0240223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.121 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 71.25 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Editor.SpatialKeyboardSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Editor.SpatialKeyboardSampleProjectValidation..cctor () [0x00023] in E:\Luca-stage\Assets\Samples\XR Interaction Toolkit\3.0.7\Spatial Keyboard\Editor\Scripts\SpatialKeyboardSampleProjectValidation.cs:39 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <9e6ebc012b944bf1ac9a620fd8e232d1>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Configuration\ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Configuration\ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Contexts\WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\VirtualProjects\Editor\Contexts\EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <9e6ebc012b944bf1ac9a620fd8e232d1>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.948 seconds
+Domain Reload Profiling: 4072ms
+	BeginReloadAssembly (644ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (119ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (1296ms)
+		LoadAssemblies (1276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (458ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (419ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1949ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1580ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (211ms)
+			ProcessInitializeOnLoadAttributes (821ms)
+			ProcessInitializeOnLoadMethodAttributes (516ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 116.33 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9294 unused Assets / (5.6 MB). Loaded Objects now: 9997.
+Memory consumption went from 272.3 MB to 266.8 MB.
+Total: 26.650800 ms (FindLiveObjects: 1.650600 ms CreateObjectMapping: 3.005700 ms MarkObjects: 14.522000 ms  DeleteObjects: 7.470700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.083 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 92.67 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Editor.SpatialKeyboardSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Editor.SpatialKeyboardSampleProjectValidation..cctor () [0x00023] in E:\Luca-stage\Assets\Samples\XR Interaction Toolkit\3.0.7\Spatial Keyboard\Editor\Scripts\SpatialKeyboardSampleProjectValidation.cs:39 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <9e6ebc012b944bf1ac9a620fd8e232d1>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Configuration\ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Configuration\ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Contexts\WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:198 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in .\Library\PackageCache\com.unity.multiplayer.playmode@7f4b34d911b7\VirtualProjects\Editor\Contexts\EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <9e6ebc012b944bf1ac9a620fd8e232d1>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.054 seconds
+Domain Reload Profiling: 4141ms
+	BeginReloadAssembly (572ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (106ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (1327ms)
+		LoadAssemblies (1253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (461ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (423ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2055ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1666ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (901ms)
+			ProcessInitializeOnLoadMethodAttributes (534ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 136.12 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9293 unused Assets / (4.3 MB). Loaded Objects now: 10001.
+Memory consumption went from 272.2 MB to 267.9 MB.
+Total: 26.581300 ms (FindLiveObjects: 1.598100 ms CreateObjectMapping: 2.887300 ms MarkObjects: 16.078700 ms  DeleteObjects: 6.016200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
