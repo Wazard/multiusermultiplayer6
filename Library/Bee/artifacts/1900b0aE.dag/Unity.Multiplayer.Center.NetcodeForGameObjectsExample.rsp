@@ -128,6 +128,7 @@
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:USE_STICK_CONTROL_THUMBSTICKS
+-define:NGO_2_OR_NEWER
 -define:SERVICES_INSTALLED
 -define:NGO_INSTALLED
 -define:NEW_INPUT_SYSTEM_INSTALLED
@@ -380,7 +381,6 @@
 -r:"Library/PackageCache/com.unity.services.wire@098672f918fa/Plugins/websocket-sharp.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Netcode.Components.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Netcode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Netcode.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Authentication.ref.dll"

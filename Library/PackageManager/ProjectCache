@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638766769975553193
-    m_Hash: 2612105724
+      ticks: 638768582853022872
+    m_Hash: 3949726563
   m_LockFileStatus:
     m_FilePath: E:/Luca-stage/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638766769975989236
-    m_Hash: 3059529049
+      ticks: 638768582855046168
+    m_Hash: 4286794488
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1145,12 +1145,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.3.3
     minimumUnityVersion: 6000.0.22f1
-- packageId: com.unity.netcode.gameobjects@1.12.0
+- packageId: com.unity.netcode.gameobjects@2.2.0
   testable: 0
   isDirectDependency: 1
-  version: 1.12.0
+  version: 2.2.0
   source: 1
-  resolvedPath: E:\Luca-stage\Library\PackageCache\com.unity.netcode.gameobjects@61beb9aa5947
+  resolvedPath: E:\Luca-stage\Library\PackageCache\com.unity.netcode.gameobjects@f2477a6c90fe
   assetPath: Packages/com.unity.netcode.gameobjects
   name: com.unity.netcode.gameobjects
   displayName: Netcode for GameObjects
@@ -1223,9 +1223,9 @@ m_ResolvedPackages:
     deprecated: []
   dependencies:
   - name: com.unity.transport
-    version: 1.4.0
+    version: 2.4.0
   - name: com.unity.nuget.mono-cecil
-    version: 1.10.1
+    version: 1.11.4
   resolvedDependencies:
   - name: com.unity.transport
     version: 2.4.0
@@ -1260,13 +1260,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638697050870820000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@1.12/manual/index.html
+  datePublishedTicks: 638699621276260000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@2.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.netcode.gameobjects.git
-    revision: 109ededce37b86fd2e51c7c53f128fe1503eaef5
+    revision: ba490651a8c6cf2f98c2bbacef8b24a1170860b3
     path: 
   unityLifecycle:
     version: 1.12.0
@@ -1279,65 +1279,55 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Added `UnityTransport.GetEndpoint` method
-    to provide a way to obtain `NetworkEndpoint` information of a connection via
-    client identifier. (#3131)\n- Added a static `NetworkManager.OnInstantiated`
-    event notification to be able to track when a new `NetworkManager` instance has
-    been instantiated. (#3089)\n- Added a static `NetworkManager.OnDestroying` event
-    notification to be able to track when an existing `NetworkManager` instance is
-    being destroyed. (#3089)\n- Added message size validation to named and unnamed
-    message sending functions for better error messages. (#3043)\n- Added \"Check
-    for NetworkObject Component\" property to the Multiplayer->Netcode for GameObjects
-    project settings. When disabled, this will bypass the in-editor `NetworkObject`
-    check on `NetworkBehaviour` components. (#3034)\n\n### Fixed\n\n- Fixed issue
-    where `NetworkList` properties on in-scene placed `NetworkObject`s could cause
-    small memory leaks when entering playmode. (#3148)\n- Fixed issue where a newly
-    synchronizing client would be synchronized with the current `NetworkVariable`
-    values always which could cause issues with collections if there were any pending
-    state updates. Now, when initially synchronizing a client, if a `NetworkVariable`
-    has a pending state update it will serialize the previously known value(s) to
-    the synchronizing client so when the pending updates are sent they aren''t duplicate
-    values on the newly connected client side. (#3126)\n- Fixed issue where changing
-    ownership would mark every `NetworkVariable` dirty. Now, it will only mark any
-    `NetworkVariable` with owner read permissions as dirty and will send/flush any
-    pending updates to all clients prior to sending the change in ownership message. 
-    (#3126)\n- Fixed issue with `NetworkVariable` collections where transferring
-    ownership to another client would not update the new owner''s previous value
-    to the most current value which could cause the last/previous added value to
-    be detected as a change when adding or removing an entry (as long as the entry
-    removed was not the last/previously added value).  (#3126)\n- Fixed issue where
-    a client (or server) with no write permissions for a `NetworkVariable` using
-    a standard .NET collection type could still modify the collection which could
-    cause various issues depending upon the modification and collection type.  (#3126)\n-
+  upmReserved: '{"changelog":"### Added\n\n- Added `NetworkObject.OwnershipStatus.SessionOwner`
+    to allow Network Objects to be distributable and only owned by the Session Owner.
+    This flag will override all other `OwnershipStatus` flags. (#3175)\n- Added `UnityTransport.GetEndpoint`
+    method to provide a way to obtain `NetworkEndpoint` information of a connection
+    via client identifier. (#3130)\n- Added `NetworkTransport.OnEarlyUpdate` and
+    `NetworkTransport.OnPostLateUpdate` methods to provide more control over handling
+    transport related events at the start and end of each frame. (#3113)\n\n### Fixed\n\n-
+    Fixed issue where the server, host, or session owner would not populate the in-scene
+    place `NetworkObject` table if the scene was loaded prior to starting the `NetworkManager`.
+    (#3177)\n- Fixed issue where the `NetworkObjectIdHash` value could be incorrect
+    when entering play mode while still in prefab edit mode with pending changes
+    and using MPPM. (#3162)\n- Fixed issue where a sever only `NetworkManager` instance
+    would spawn the actual `NetworkPrefab`''s `GameObject` as opposed to creating
+    an instance of it. (#3160)\n- Fixed issue where only the session owner (as opposed
+    to all clients) would handle spawning prefab overrides properly when using a
+    distributed authority network topology. (#3160)\n- Fixed issue where an exception
+    was thrown when calling `NetworkManager.Shutdown` after calling `UnityTransport.Shutdown`.
+    (#3118)\n- Fixed issue where `NetworkList` properties on in-scene placed `NetworkObject`s
+    could cause small memory leaks when entering playmode. (#3147)\n- Fixed in-scene
+    `NertworkObject` synchronization issue when loading a scene with currently connected
+    clients connected to a session created by a `NetworkManager` started as a server
+    (i.e. not as a host). (#3133)\n- Fixed issue where a `NetworkManager` started
+    as a server would not add itself as an observer to in-scene placed `NetworkObject`s
+    instantiated and spawned by a scene loading event. (#3133)\n- Fixed issue where
+    spawning a player using `NetworkObject.InstantiateAndSpawn` or `NetworkSpawnManager.InstantiateAndSpawn`
+    would not update the `NetworkSpawnManager.PlayerObjects` or assign the newly
+    spawned player to the `NetworkClient.PlayerObject`. (#3122)\n- Fixed issue where
+    queued UnitTransport (NetworkTransport) message batches were being sent on the
+    next frame. They are now sent at the end of the frame during `PostLateUpdate`. 
+    (#3113)\n- Fixed issue where `NotOwnerRpcTarget` or `OwnerRpcTarget` were not
+    using their replacements `NotAuthorityRpcTarget` and `AuthorityRpcTarget` which
+    would invoke a warning. (#3111)\n- Fixed issue where client is removed as an
+    observer from spawned objects when their player instance is despawned. (#3110)\n-
     Fixed issue where `NetworkAnimator` would statically allocate write buffer space
     for `Animator` parameters that could cause a write error if the number of parameters
-    exceeded the space allocated. (#3124)\n- Fixed issue with the in-scene network
-    prefab instance update menu tool where it was not properly updating scenes when
-    invoked on the root prefab instance. (#3084)\n- Fixed issue where `NetworkAnimator`
-    would send updates to non-observer clients. (#3058)\n- Fixed issue where an exception
-    could occur when receiving a universal RPC for a `NetworkObject` that has been
-    despawned. (#3055)\n- Fixed issue where setting a prefab hash value during connection
-    approval but not having a player prefab assigned could cause an exception when
-    spawning a player. (#3046)\n- Fixed issue where collections v2.2.x was not supported
-    when using UTP v2.2.x within Unity v2022.3. (#3033)\n- Fixed issue where the
-    `NetworkSpawnManager.HandleNetworkObjectShow` could throw an exception if one
-    of the `NetworkObject` components to show was destroyed during the same frame.
-    (#3029)\n- Fixed issue where the `NetworkManagerHelper` was continuing to check
-    for hierarchy changes when in play mode. (#3027)\n\n### Changed\n\n- Changed
-    `NetworkVariableDeltaMessage` so the server now forwards delta state updates
-    (owner write permission based from a client) to other clients immediately as
-    opposed to keeping a `NetworkVariable` or `NetworkList` dirty and processing
-    them at the end of the frame or potentially on the next network tick. (#3126)\n-
-    The Debug Simulator section of the Unity Transport component will now be hidden
-    if Unity Transport 2.0 or later is installed. It was already non-functional in
-    that situation and users should instead use the more featureful [Network Sim"}'
+    exceeded the space allocated. (#3108)\n\n### Changed\n\n- In-scene placed `NetworkObject`s
+    have been made distributable when balancing object distribution after a connection
+    event. (#3175)\n- Optimised `NetworkVariable` and `NetworkTransform` related
+    packets when in Distributed Authority mode.\n- The Debug Simulator section of
+    the Unity Transport component was removed. This section was not functional anymore
+    and users are now recommended to use the more featureful [Network Simulator](https://docs-multiplayer.unity3d.com/tools/current/tools-network-simulator/)
+    tool from the Multiplayer Tools package instead. (#3121)"}'
   assetStore:
     productId: 
-  fingerprint: 61beb9aa59470db69ca2c83a38a7d5d63e0b21b6
+  fingerprint: f2477a6c90fe227d487326b01afaa677e0fa8f31
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.12.0
-    minimumUnityVersion: 2021.3.0a1
+    minimumUnityVersion: 6000.0.0a1
 - packageId: com.unity.render-pipelines.universal@17.0.3
   testable: 0
   isDirectDependency: 1
@@ -1618,12 +1608,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 3.4.0
     minimumUnityVersion: 2021.3.0a1
-- packageId: com.unity.services.multiplayer@1.1.0
+- packageId: com.unity.services.multiplayer@1.1.1
   testable: 0
   isDirectDependency: 1
-  version: 1.1.0
+  version: 1.1.1
   source: 1
-  resolvedPath: E:\Luca-stage\Library\PackageCache\com.unity.services.multiplayer@e7b9f7939c7c
+  resolvedPath: E:\Luca-stage\Library\PackageCache\com.unity.services.multiplayer@888db1d8279d
   assetPath: Packages/com.unity.services.multiplayer
   name: com.unity.services.multiplayer
   displayName: Multiplayer Services
@@ -1740,13 +1730,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638690229634850000
+  datePublishedTicks: 638744631494540000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.multiplayer@1.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: ef70c7ba89129ec76b6811aab35a942e1f0942ef
+    revision: 4105b81935244a5e1b68db96a0d3e985f5d53b5e
     path: 
   unityLifecycle:
     version: 1.1.0
@@ -1759,26 +1749,18 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n- Added more detail in `SessionException`
-    message for `MatchmakerAssignmentFailed` and `MatchmakerAssignmentTimeout`, and
-    exposed the Error property via `ToString()`.\n- Added 2 new events under ISession,
-    `ISession.PlayerLeaving` and `ISession.PlayerHasLeft`.\n\n### Changed\n- Marked
-    the `ISession.PlayerLeft` event as obsolete. It is getting replaced by the new
-    `ISession.PlayerLeaving` event.\n\n### Fixed\n- Fixed the `ISession` extension
-    method `GetMatchmakingResults` when used with MatchId Matchmaking and non-backfill
-    Multiplay Matchmaking.\n- Deprecated the `WithBackfillingConfiguration` method
-    and replaced it with the corrected method with the same name and the missing
-    `playerConnectionTimeout` parameter.\n- Fixed Lobby Vivox interoperability issues
-    around joining certain channel types or joining channels that didn''t match a
-    Lobby ID when trying only to use the Vivox SDK while the Lobby SDK was present
-    in the project.\n- Fixed the Lobby Vivox channel validation to allow for positional
-    3D channels.\n- Fixed the Server Query Protocol (SQP) responses from Multiplay
-    Hosting servers to include correct Version and Port.\n- Fixed potential issue
-    when querying for fleet status in the Deployment Window.\n- Increased timeout
-    when uploading files from a build.\n- Fixed Help URL links.","gameService":{}}'
+  upmReserved: '{"changelog":"### Added\n- Added migration path validation to warn
+    users when they are using incompatible packages namely the lobby, matchmaker,
+    multiplay and relay standalone SDK.\n\n### Changed\n- Increased Lobby max player
+    count to 150.\n- Removing a player that is not in the lobby no longer throws
+    a `LobbyServiceException`, instead it will log that the player was not found.\n-
+    Updated error when trying to access `MultiplayService.Instance` while in the
+    editor.\n\n### Fixed\n- Fixed lobby so it no longer throws `ArgumentException:
+    An item with the same key has already been added`.\n- Fixed unauthorized error
+    when trying to remove other players from a lobby, with service account authentication.","gameService":{}}'
   assetStore:
     productId: 
-  fingerprint: e7b9f7939c7c2aadbfe13da5e47dfbedb65795e3
+  fingerprint: 888db1d8279d6e0be7eeff73b98ed475c72a7dd5
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.1.0
@@ -2574,12 +2556,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 4.5.0
     minimumUnityVersion: 2020.3.15f1
-- packageId: com.unity.xr.openxr@1.14.0
+- packageId: com.unity.xr.openxr@1.14.1
   testable: 0
   isDirectDependency: 1
-  version: 1.14.0
+  version: 1.14.1
   source: 1
-  resolvedPath: E:\Luca-stage\Library\PackageCache\com.unity.xr.openxr@97381c723a9c
+  resolvedPath: E:\Luca-stage\Library\PackageCache\com.unity.xr.openxr@db4bbb5cd412
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -2690,13 +2672,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638699526089420000
+  datePublishedTicks: 638759883291330000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.14/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
-    revision: 1ed98b99a78ebadb016eb8a1433b0db8eb108988
+    revision: 817c153978cddf968fba7cf3b4568f4ff22f40a4
     path: 
   unityLifecycle:
     version: 1.14.0
@@ -2709,32 +2691,23 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n* Added support for the RG16f texture
-    format and a selection mode for the texture format of the Space Warp motion vector
-    texture for the Meta Quest feature. You can select the format for the Space Warp
-    motion vector texture in Editor > Project Settings > XR Plug-in Management >
-    OpenXR > Android tab > Meta Quest Support feature settings.\n* Added the following
-    extension methods for `XrResult`: `IsSuccess()`, `IsUnqualifiedSuccess()`, and
-    `IsError()`, which you can use to more conveniently reason about `XrResult` values.\n*
-    Added new values to the `XrResult` enum to match the values present in the native
-    `XrResult` type in OpenXR 1.1.36.\n* Added support for locating the OpenXR loader
-    for the Meta XR Simulator on OSX.\n* Added new Optimize Multiview Render Regions
-    settings option for Meta Quest devices. In the context of XR rendering, Multiview
-    Render Regions enables the drivers to skip shader invocations (and rendering
-    work) for screen areas outside of the user''s view (such as the nasal regions
-    that the user can''t see within the headset). You can toggle on support for Multiview
-    Render Regions in Editor > Project Settings > XR Plug-in Management > OpenXR
-    > Android tab > Meta Quest Support feature settings. Note that Multiview Render
-    Regions requires Symmetric Projection settings toggle turned on, and Render Mode
-    set to Single Pass Instanced \\ Multi-view. Multiview Render Regions is only
-    supported in the Vulkan Graphics API, and it is activated at application start
-    up.\n* Added project validation warning to prevent user from using URP upscaling
-    with XR.\n\n### Deprecated\n\n* Deprecated `XrResult.TimeoutExpored` and `XrResult.AndroidThreadSettingsdFailureKHR`
-    and replaced them with correctly spelled enum values.\n\n### Fixed\n\n* Occlusion
-    Mask vertices projected based on FOV."}'
+  upmReserved: '{"changelog":"### Added\n\n* Added a validation rule to the Meta
+    Quest Support feature to ensure that your app''s default interface orientation
+    uses a supported value.\n\n### Fixed\n\n* Fixed the OpenXRFeatureBuildHooks class
+    so it now grabs the OpenXRSettings object from the given build target during
+    build processing.\n* Fixed duplicate OpenXR feature assets being added to the
+    OpenXRSettings asset when upgrading to a newer OpenXR package.\n* Fixed rendering
+    problems with Mixed Reality Capture.\n* Fixed a debug log spamming issue regarding
+    ignored event types. This message could be logged multiple times per frame and
+    was not helpful.\n* Fixed Meta-specific eye-tracking manifest permissions to
+    be added only to apps targeting Meta Quest Pro devices.\n* Fixed an issue where
+    spacewarp may assign motion vector textures to wrong render passes when using
+    secondary views.\n* Fixed a bug when allocating array swapchain failed, the index
+    was incremented incorrectly. \n* Fixed an issue when OpenXR feature didn''t have
+    all the attribute entries setup."}'
   assetStore:
     productId: 
-  fingerprint: 97381c723a9c4a7b56925c2aa4e742b3348f7eac
+  fingerprint: db4bbb5cd412ddbe352755d176a472ce5a002505
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.14.0

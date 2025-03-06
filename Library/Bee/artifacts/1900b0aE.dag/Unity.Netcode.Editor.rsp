@@ -129,6 +129,7 @@
 -define:COM_UNITY_MODULES_PHYSICS
 -define:COM_UNITY_MODULES_PHYSICS2D
 -define:UTP_TRANSPORT_2_0_ABOVE
+-define:MULTIPLAYER_SERVICES_SDK_INSTALLED
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
@@ -391,7 +392,6 @@
 -r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll"
 -r:"Library/PackageCache/com.unity.services.wire@098672f918fa/Plugins/websocket-sharp.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Netcode.Components.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Netcode.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Networking.Transport.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Authentication.ref.dll"
@@ -404,20 +404,21 @@
 -analyzer:"D:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"D:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 -analyzer:"Library/PackageCache/com.unity.transport@c6e877f31661/Analyzers/Unity.Transport.Analyzers.dll"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/AnticipatedNetworkTransformEditor.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/Configuration/NetcodeForGameObjectsProjectSettings.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/Configuration/NetcodeForGameObjectsSettings.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/Configuration/NetcodeSettingsProvider.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/Configuration/NetworkPrefabProcessor.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/Configuration/NetworkPrefabsEditor.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/HiddenScriptEditor.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/NetworkBehaviourEditor.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/NetworkManagerEditor.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/NetworkManagerHelper.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/NetworkManagerRelayIntegration.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/NetworkObjectEditor.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/NetworkTransformEditor.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/Configuration/NetcodeForGameObjectsProjectSettings.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/Configuration/NetcodeForGameObjectsSettings.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/Configuration/NetcodeSettingsProvider.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/Configuration/NetworkPrefabProcessor.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/Configuration/NetworkPrefabsEditor.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/HiddenScriptEditor.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/NetcodeEditorBase.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/NetworkBehaviourEditor.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/NetworkManagerEditor.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/NetworkManagerHelper.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/NetworkManagerRelayIntegration.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/NetworkObjectEditor.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/NetworkRigidbodyBaseEditor.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/NetworkTransformEditor.cs"
 -langversion:9.0
 /deterministic
 /optimize+

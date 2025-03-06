@@ -127,6 +127,7 @@
 -define:USE_STICK_CONTROL_THUMBSTICKS
 -define:SERVICES_CORE_INSTALLED
 -define:NGO_INSTALLED
+-define:NGO_2_OR_NEWER
 -define:MPPM_INSTALLED
 -define:MPPM_1_3_INSTALLED
 -define:MULTIPLAYER_CENTER_ANALYTICS_AVAILABLE
@@ -397,7 +398,6 @@
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.NetcodeForGameObjectsExample.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Netcode.Components.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Netcode.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"

@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 7.2000003
-    y: 80
-    width: 1521.6
-    height: 736.8
+    x: 52
+    y: 112.8
+    width: 1090.4
+    height: 704
   m_ShowMode: 0
   m_Title: 'Player 2 [user_2]'
   m_RootView: {fileID: 3}
@@ -41,8 +41,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1521.6
-    height: 736.8
+    width: 1090.4
+    height: 704
   m_MinSize: {x: 310, y: 226}
   m_MaxSize: {x: 4000, y: 4026}
   m_ActualView: {fileID: 4}
@@ -68,12 +68,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1521.6
-    height: 736.8
+    width: 1090.4
+    height: 704
   m_MinSize: {x: 310, y: 226}
   m_MaxSize: {x: 4000, y: 4026}
   vertical: 0
-  controlID: 994
+  controlID: 390
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -97,10 +97,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project Settings\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 7.2000003
-    y: 80
-    width: 1521.6
-    height: 710.8
+    x: 52
+    y: 112.8
+    width: 1090.4
+    height: 678
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0

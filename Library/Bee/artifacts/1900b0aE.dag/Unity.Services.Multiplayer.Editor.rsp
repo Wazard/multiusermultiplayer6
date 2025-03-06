@@ -397,10 +397,12 @@
 -analyzer:"D:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"D:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 -analyzer:"Library/PackageCache/com.unity.transport@c6e877f31661/Analyzers/Unity.Transport.Analyzers.dll"
-"Library/PackageCache/com.unity.services.multiplayer@e7b9f7939c7c/Editor/Multiplayer/SessionsController.cs"
-"Library/PackageCache/com.unity.services.multiplayer@e7b9f7939c7c/Editor/Multiplayer/SessionsViewer.cs"
-"Library/PackageCache/com.unity.services.multiplayer@e7b9f7939c7c/Editor/Multiplayer/SessionsWindow.cs"
-"Library/PackageCache/com.unity.services.multiplayer@e7b9f7939c7c/Editor/Multiplayer/UIController.cs"
+"Library/PackageCache/com.unity.services.multiplayer@888db1d8279d/Editor/Multiplayer/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.services.multiplayer@888db1d8279d/Editor/Multiplayer/MigrationPath/Validator.cs"
+"Library/PackageCache/com.unity.services.multiplayer@888db1d8279d/Editor/Multiplayer/SessionsController.cs"
+"Library/PackageCache/com.unity.services.multiplayer@888db1d8279d/Editor/Multiplayer/SessionsViewer.cs"
+"Library/PackageCache/com.unity.services.multiplayer@888db1d8279d/Editor/Multiplayer/SessionsWindow.cs"
+"Library/PackageCache/com.unity.services.multiplayer@888db1d8279d/Editor/Multiplayer/UIController.cs"
 -langversion:9.0
 /deterministic
 /optimize+

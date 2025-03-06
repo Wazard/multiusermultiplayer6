@@ -388,14 +388,14 @@
 -analyzer:"D:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"D:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 -analyzer:"Library/PackageCache/com.unity.transport@c6e877f31661/Analyzers/Unity.Transport.Analyzers.dll"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/CodeGen/CodeGenHelpers.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/CodeGen/INetworkMessageILPP.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/CodeGen/INetworkSerializableILPP.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/CodeGen/NetworkBehaviourILPP.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/CodeGen/PostProcessorAssemblyResolver.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/CodeGen/PostProcessorReflectionImporter.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/CodeGen/PostProcessorReflectionImporterProvider.cs"
-"Library/PackageCache/com.unity.netcode.gameobjects@61beb9aa5947/Editor/CodeGen/RuntimeAccessModifiersILPP.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/CodeGen/CodeGenHelpers.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/CodeGen/INetworkMessageILPP.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/CodeGen/INetworkSerializableILPP.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/CodeGen/NetworkBehaviourILPP.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/CodeGen/PostProcessorAssemblyResolver.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/CodeGen/PostProcessorReflectionImporter.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/CodeGen/PostProcessorReflectionImporterProvider.cs"
+"Library/PackageCache/com.unity.netcode.gameobjects@f2477a6c90fe/Editor/CodeGen/RuntimeAccessModifiersILPP.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
