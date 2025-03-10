@@ -74,18 +74,22 @@
     <Compile Include="Assets\Noitom\Scripts\Mocap\NeuronActor.cs" />
     <Compile Include="Assets\Noitom\Scripts\Mocap\NeuronRigidbodyListHelper.cs" />
     <Compile Include="Assets\Noitom\Scripts\Mocap\NeuronAnimatorPhysicalReference.cs" />
+    <Compile Include="Assets\Scripts\NeuronSourceManager.cs" />
+    <Compile Include="Assets\VR Body\IKFootSolver.cs" />
     <Compile Include="Assets\Noitom\Scripts\Mocap\NeuronRigidbody.cs" />
     <Compile Include="Assets\Noitom\Scripts\Mocap\NeuronSourceManager.cs" />
     <Compile Include="Assets\Noitom\Scripts\Utilities\BoneRigidbodies.cs" />
+    <Compile Include="Assets\Scripts\IK_NeuronManager.cs" />
     <Compile Include="Assets\Noitom\Scripts\Mocap\NeuronInstance.cs" />
     <Compile Include="Assets\Noitom\Scripts\Utilities\AliceMotionBindHelper.cs" />
     <Compile Include="Assets\Noitom\Scripts\Mocap\NeuronDataReaderManaged.cs" />
+    <Compile Include="Assets\VR Body\AnimateOnInput.cs" />
     <Compile Include="Assets\Noitom\Scripts\Utilities\BoneColliders.cs" />
     <Compile Include="Assets\Noitom\Scripts\Utilities\BoneLine.cs" />
-    <Compile Include="Assets\Scripts\ConveyorPhysics.cs" />
     <Compile Include="Assets\Noitom\Scripts\Utilities\BoneLines.cs" />
     <Compile Include="Assets\Noitom\Scripts\Mocap\NeuronAnimatorInstance.cs" />
     <Compile Include="Assets\Noitom\Scripts\Mocap\NeuronSource.cs" />
+    <Compile Include="Assets\VR Body\IKTargetFollowVRRig.cs" />
     <Compile Include="Assets\Noitom\Scripts\Mocap\MocapApiManager.cs" />
     <Compile Include="Assets\Noitom\Scripts\Utilities\FPSCounter.cs" />
     <Compile Include="Assets\Noitom\Scripts\Utilities\RigidbodyVirtualCinematographyCtrl.cs" />
@@ -1212,6 +1216,10 @@
       <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Multiplayer.PlayMode.Editor.Bridge">
       <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.PlayMode.Editor.Bridge.dll</HintPath>
       <Private>False</Private>
@@ -1298,6 +1306,10 @@
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">

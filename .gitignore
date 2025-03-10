@@ -1,3 +1,4 @@
-Library/BurstCache
-Library/PackageCache
-Library/Artifacts
+BurstCache/
+PackageCache/
+Artifacts/
+Library/ArtifactDB

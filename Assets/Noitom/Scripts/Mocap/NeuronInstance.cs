@@ -40,7 +40,7 @@ namespace Neuron
         [Header("Index of avatar in axis software, default is zero")]
         public int actorID = 0;               
 
-        protected NeuronActor boundActor = null;
+        public NeuronActor boundActor = null;
 
         public bool noFrameData { get; private set; }
 

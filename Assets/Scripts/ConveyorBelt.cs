@@ -11,13 +11,17 @@ namespace MultiUserU6
     /// </summary>
 public class ConveyorBelt : MonoBehaviour
 {
+    #region variables
+    
     [SerializeField, Tooltip("Speed of which items on top are moved"), Range(0.01f,2)]
     private float _beltSpeed = .5f;
     [SerializeField,Tooltip("Conveyor belt status")]
     private bool _isActive = true;
     private Rigidbody _rigidBody;
     private NetworkManagerVRMultiplayer _networkManager;
-
+    
+    #endregion variables
+    #region methods
     void OnEnable()
     {
         _networkManager = FindFirstObjectByType<NetworkManagerVRMultiplayer>();
@@ -38,6 +42,6 @@ public class ConveyorBelt : MonoBehaviour
         _rigidBody.position += -transform.forward * _beltSpeed * Time.fixedDeltaTime;
         _rigidBody.MovePosition(currentPosition);
     }
-
+    #endregion methods
 }
 }
